@@ -1,6 +1,14 @@
-:root{
-    background: rgb(237, 134, 134);
-    
-
-
+:root {
+    --cor-de-fundo: #1E1E1E;
+    --verde: #0044ff;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgb(23, 2, 248);
 }
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
